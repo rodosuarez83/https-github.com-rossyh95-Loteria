@@ -1,0 +1,36 @@
+body {
+    background-image: url('cartas/fondo2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table, th, td {
+    border: 1px solid;
+  }
+
+  th, td {
+      padding: 8px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+  }
+
+  #tabla1, #tabla2, #tabla3 {
+      display: none;
+      position: absolute;
+      right: 60%;
+      top: 50px;
+
+  }
+
+  #cartasAuto {
+      display: none;
+      position: absolute;
+      top: 300px;
+      right: 50%;
+  }
+
+  #botcuatro {
+    position: absolute;
+    top: 270px;
+    right: 52%;
+  }

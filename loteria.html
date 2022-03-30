@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="loteria.css">
+    <title>Lotería</title>
+</head>
+<body>
+    <div class="boton1">
+        <button id="botuno" onclick="myFunction1()">Lotería 1</button>
+        <button id="botdos" onclick="myFunction2()">Lotería 2</button>
+        <button id="bottres" onclick="myFunction3()">Lotería 3</button>
+    </div>
+
+    <div id="tabla1">
+    <table>
+        <tr>
+            <th colspan="4">Lotería</th>
+        </tr>
+        <tr>
+            <td class="cartaLoteria" id="1" onclick="marcarCarta(1)"><img src="cartas/1.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="2" onclick="marcarCarta(2)"><img src="cartas/5.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="3" onclick="marcarCarta(3)"><img src="cartas/9.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="4" onclick="marcarCarta(4)"><img src="cartas/13.jpg" width="90px"></td>
+        </tr>
+        <tr>
+            <td class="cartaLoteria" id="5"><img src="cartas/17.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="6"><img src="cartas/21.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="7"><img src="cartas/25.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="8"><img src="cartas/29.jpg" width="90px"></td>
+        </tr>
+        <tr>
+            <td class="cartaLoteria" id="9"><img src="cartas/33.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="10"><img src="cartas/37.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="11"><img src="cartas/41.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="12"><img src="cartas/45.jpg" width="90px"></td>
+        </tr>
+        <tr>
+            <td class="cartaLoteria" id="13"><img src="cartas/49.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="14"><img src="cartas/53.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="15"><img src="cartas/2.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="16"><img src="cartas/6.jpg" width="90px"></td>
+        </tr>
+    </table>
+    </div>
+
+    <div id="tabla2">
+        <table>
+            <tr>
+                <th colspan="4">Lotería</th>
+            </tr>
+            <tr>
+                <td class="cartaLoteria" id="17"><img src="cartas/10.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="18"><img src="cartas/14.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="19"><img src="cartas/18.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="20"><img src="cartas/22.jpg" width="90px"></td>
+            </tr>
+            <tr>
+                <td class="cartaLoteria" id="21"><img src="cartas/26.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="22"><img src="cartas/30.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="23"><img src="cartas/34.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="24"><img src="cartas/38.jpg" width="90px"></td>
+            </tr>
+            <tr>
+                <td class="cartaLoteria" id="25"><img src="cartas/42.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="26"><img src="cartas/46.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="27"><img src="cartas/50.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="28"><img src="cartas/54.jpg" width="90px"></td>
+            </tr>
+            <tr>
+                <td class="cartaLoteria" id="29"><img src="cartas/3.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="30"><img src="cartas/7.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="31"><img src="cartas/11.jpg" width="90px"></td>
+                <td class="cartaLoteria" id="32"><img src="cartas/15.jpg" width="90px"></td>
+            </tr>
+        </table>
+        </div>
+
+        <div id="tabla3">
+            <table>
+                <tr>
+                    <th colspan="4">Lotería</th>
+                </tr>
+                <tr>
+                    <td class="cartaLoteria" id="33"><img src="cartas/19.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="34"><img src="cartas/23.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="35"><img src="cartas/27.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="36"><img src="cartas/31.jpg" width="90px"></td>
+                </tr>
+                <tr>
+                    <td class="cartaLoteria" id="37"><img src="cartas/35.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="38"><img src="cartas/39.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="39"><img src="cartas/43.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="40"><img src="cartas/47.jpg" width="90px"></td>
+                </tr>
+                <tr>
+                    <td class="cartaLoteria" id="41"><img src="cartas/51.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="42"><img src="cartas/4.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="43"><img src="cartas/8.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="44"><img src="cartas/12.jpg" width="90px"></td>
+                </tr>
+                <tr>
+                    <td class="cartaLoteria" id="45"><img src="cartas/16.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="46"><img src="cartas/20.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="47"><img src="cartas/24.jpg" width="90px"></td>
+                    <td class="cartaLoteria" id="48"><img src="cartas/28.jpg" width="90px"></td>
+                </tr>
+            </table>
+            </div>
+
+            <button id="botcuatro" onclick="myFunction4()">Iniciar juego</button>
+            <img id="cartasAuto" name="slide" width="130"/>
+
+<script src="loteria.js"></script>
+
+</body>
+</html>
