@@ -9,7 +9,7 @@
 </head>
 <body>
     <div class="boton1">
-        <button id="botuno" onclick="myFunction1()">Lotería 1</button>
+        <button id="botuno" class="buton buton1" onclick="myFunction1()">Lotería 1</button>
         <button id="botdos" onclick="myFunction2()">Lotería 2</button>
         <button id="bottres" onclick="myFunction3()">Lotería 3</button>
     </div>
@@ -20,10 +20,10 @@
             <th colspan="4">Lotería</th>
         </tr>
         <tr>
-            <td class="cartaLoteria" id="1" onclick="marcarCarta(1)"><img src="cartas/1.jpg" width="90px"></td>
-            <td class="cartaLoteria" id="2" onclick="marcarCarta(2)"><img src="cartas/5.jpg" width="90px"></td>
-            <td class="cartaLoteria" id="3" onclick="marcarCarta(3)"><img src="cartas/9.jpg" width="90px"></td>
-            <td class="cartaLoteria" id="4" onclick="marcarCarta(4)"><img src="cartas/13.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="1"><img src="cartas/1.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="2"><img src="cartas/5.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="3"><img src="cartas/9.jpg" width="90px"></td>
+            <td class="cartaLoteria" id="4"><img src="cartas/13.jpg" width="90px"></td>
         </tr>
         <tr>
             <td class="cartaLoteria" id="5"><img src="cartas/17.jpg" width="90px"></td>
@@ -111,7 +111,9 @@
             </div>
 
             <button id="botcuatro" onclick="myFunction4()">Iniciar juego</button>
-            <img id="cartasAuto" name="slide" width="130"/>
+            <img id="cartasAuto" name="slide" width="200"/>
+
+            <button id="botcinco" onClick="window.location.reload();">¡Jugar de nuevo!</button>
 
 <script src="loteria.js"></script>
 

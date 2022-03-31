@@ -43,21 +43,20 @@ button.onclick = function() {
         div.style.display = 'block';
     }
 };
-
+let contador = 0;
 function marcarCarta(id){
+    contador++;
     let carta = document.getElementById(id)
     carta.style = "background-color:blue"
+    if (contador == 16) {
+        alert("¡LOTERÍA!");
+    }
 }
 
 let cartas = document.getElementsByClassName('cartaLoteria');
 for(let i = 0; i < cartas.length; i++) {
     cartas[i].addEventListener('click', ()=> marcarCarta(i+1), { once: true })
 }
-
-if(cartas === 16) {
-alert("Has ganado!")
-}
-
 
 var i = 0;
 var images = [];

@@ -17,7 +17,7 @@ table, th, td {
   #tabla1, #tabla2, #tabla3 {
       display: none;
       position: absolute;
-      right: 60%;
+      right: 57%;
       top: 50px;
 
   }
@@ -26,11 +26,79 @@ table, th, td {
       display: none;
       position: absolute;
       top: 300px;
-      right: 50%;
+      right: 40%;
   }
 
   #botcuatro {
     position: absolute;
-    top: 270px;
-    right: 52%;
+    top: 235px;
+    right: 43%;
+    background-color: #1924bd;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #botcinco {
+    position: absolute;
+    right: 42%;
+    background-color: #9ceaf0;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 16px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #botuno {
+    position: absolute;
+    background-color: #4CAF50; /* Green */
+    border-radius: 10px;
+    color: white;
+    padding: 16px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  #botdos {
+    position: absolute;
+    top: 80px;
+    background-color: #ffffff; /* Green */
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    padding: 16px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  #bottres {
+    position: absolute;
+    top: 150px;
+    background-color: #ad0505; /* Green */
+    border-radius: 10px;
+    color: white;
+    padding: 16px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
   }
